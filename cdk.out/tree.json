@@ -1,0 +1,181 @@
+{
+  "version": "tree-0.1",
+  "tree": {
+    "id": "App",
+    "path": "",
+    "children": [
+      {
+        "id": "Tree",
+        "path": "Tree"
+      },
+      {
+        "id": "SamOptionsRepro",
+        "path": "SamOptionsRepro",
+        "children": [
+          {
+            "id": "TestFunction",
+            "path": "SamOptionsRepro/TestFunction",
+            "children": [
+              {
+                "id": "ServiceRole",
+                "path": "SamOptionsRepro/TestFunction/ServiceRole",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "SamOptionsRepro/TestFunction/ServiceRole/Resource"
+                  }
+                ]
+              },
+              {
+                "id": "Code",
+                "path": "SamOptionsRepro/TestFunction/Code",
+                "children": [
+                  {
+                    "id": "Stage",
+                    "path": "SamOptionsRepro/TestFunction/Code/Stage"
+                  },
+                  {
+                    "id": "AssetBucket",
+                    "path": "SamOptionsRepro/TestFunction/Code/AssetBucket"
+                  }
+                ]
+              },
+              {
+                "id": "Resource",
+                "path": "SamOptionsRepro/TestFunction/Resource"
+              }
+            ]
+          },
+          {
+            "id": "AssetParameters",
+            "path": "SamOptionsRepro/AssetParameters",
+            "children": [
+              {
+                "id": "040a695a2e9322b243e184783361acba012db64da407da504863c1bf90f92c73",
+                "path": "SamOptionsRepro/AssetParameters/040a695a2e9322b243e184783361acba012db64da407da504863c1bf90f92c73",
+                "children": [
+                  {
+                    "id": "S3Bucket",
+                    "path": "SamOptionsRepro/AssetParameters/040a695a2e9322b243e184783361acba012db64da407da504863c1bf90f92c73/S3Bucket"
+                  },
+                  {
+                    "id": "S3VersionKey",
+                    "path": "SamOptionsRepro/AssetParameters/040a695a2e9322b243e184783361acba012db64da407da504863c1bf90f92c73/S3VersionKey"
+                  },
+                  {
+                    "id": "ArtifactHash",
+                    "path": "SamOptionsRepro/AssetParameters/040a695a2e9322b243e184783361acba012db64da407da504863c1bf90f92c73/ArtifactHash"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "TestApi",
+            "path": "SamOptionsRepro/TestApi",
+            "children": [
+              {
+                "id": "Resource",
+                "path": "SamOptionsRepro/TestApi/Resource"
+              },
+              {
+                "id": "Deployment",
+                "path": "SamOptionsRepro/TestApi/Deployment",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "SamOptionsRepro/TestApi/Deployment/Resource"
+                  }
+                ]
+              },
+              {
+                "id": "DeploymentStage.prod",
+                "path": "SamOptionsRepro/TestApi/DeploymentStage.prod",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "SamOptionsRepro/TestApi/DeploymentStage.prod/Resource"
+                  }
+                ]
+              },
+              {
+                "id": "Endpoint",
+                "path": "SamOptionsRepro/TestApi/Endpoint"
+              },
+              {
+                "id": "CloudWatchRole",
+                "path": "SamOptionsRepro/TestApi/CloudWatchRole",
+                "children": [
+                  {
+                    "id": "Resource",
+                    "path": "SamOptionsRepro/TestApi/CloudWatchRole/Resource"
+                  }
+                ]
+              },
+              {
+                "id": "Account",
+                "path": "SamOptionsRepro/TestApi/Account"
+              },
+              {
+                "id": "Default",
+                "path": "SamOptionsRepro/TestApi/Default",
+                "children": [
+                  {
+                    "id": "{proxy+}",
+                    "path": "SamOptionsRepro/TestApi/Default/{proxy+}",
+                    "children": [
+                      {
+                        "id": "Resource",
+                        "path": "SamOptionsRepro/TestApi/Default/{proxy+}/Resource"
+                      },
+                      {
+                        "id": "ANY",
+                        "path": "SamOptionsRepro/TestApi/Default/{proxy+}/ANY",
+                        "children": [
+                          {
+                            "id": "ApiPermission.SamOptionsReproTestApiC27A3212.ANY..{proxy+}",
+                            "path": "SamOptionsRepro/TestApi/Default/{proxy+}/ANY/ApiPermission.SamOptionsReproTestApiC27A3212.ANY..{proxy+}"
+                          },
+                          {
+                            "id": "ApiPermission.Test.SamOptionsReproTestApiC27A3212.ANY..{proxy+}",
+                            "path": "SamOptionsRepro/TestApi/Default/{proxy+}/ANY/ApiPermission.Test.SamOptionsReproTestApiC27A3212.ANY..{proxy+}"
+                          },
+                          {
+                            "id": "Resource",
+                            "path": "SamOptionsRepro/TestApi/Default/{proxy+}/ANY/Resource"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ANY",
+                    "path": "SamOptionsRepro/TestApi/Default/ANY",
+                    "children": [
+                      {
+                        "id": "ApiPermission.SamOptionsReproTestApiC27A3212.ANY..",
+                        "path": "SamOptionsRepro/TestApi/Default/ANY/ApiPermission.SamOptionsReproTestApiC27A3212.ANY.."
+                      },
+                      {
+                        "id": "ApiPermission.Test.SamOptionsReproTestApiC27A3212.ANY..",
+                        "path": "SamOptionsRepro/TestApi/Default/ANY/ApiPermission.Test.SamOptionsReproTestApiC27A3212.ANY.."
+                      },
+                      {
+                        "id": "Resource",
+                        "path": "SamOptionsRepro/TestApi/Default/ANY/Resource"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ApiUrl",
+            "path": "SamOptionsRepro/ApiUrl"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,466 @@
+{
+  "version": "1.10.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "SamOptionsRepro": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "SamOptionsRepro.template.json"
+      },
+      "metadata": {
+        "/SamOptionsRepro": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib",
+              "id": "040a695a2e9322b243e184783361acba012db64da407da504863c1bf90f92c73",
+              "packaging": "zip",
+              "sourceHash": "040a695a2e9322b243e184783361acba012db64da407da504863c1bf90f92c73",
+              "s3BucketParameter": "AssetParameters040a695a2e9322b243e184783361acba012db64da407da504863c1bf90f92c73S3Bucket4F63589D",
+              "s3KeyParameter": "AssetParameters040a695a2e9322b243e184783361acba012db64da407da504863c1bf90f92c73S3VersionKeyAA276266",
+              "artifactHashParameter": "AssetParameters040a695a2e9322b243e184783361acba012db64da407da504863c1bf90f92c73ArtifactHashC1A5CE00"
+            },
+            "trace": [
+              "TestStack.addFileAsset (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/core/lib/stack.js:327:23)",
+              "new Asset (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:27:32)",
+              "AssetCode.bind (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new Function (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-lambda/lib/function.js:73:33)",
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:20:25)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/SamOptionsRepro/TestFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TestFunctionServiceRole6ABD93C7",
+            "trace": [
+              "new Role (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-iam/lib/role.js:35:22)",
+              "new Function (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-lambda/lib/function.js:59:35)",
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:20:25)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/SamOptionsRepro/TestFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TestFunction22AD90FC",
+            "trace": [
+              "new Function (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-lambda/lib/function.js:75:26)",
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:20:25)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/SamOptionsRepro/AssetParameters/040a695a2e9322b243e184783361acba012db64da407da504863c1bf90f92c73/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters040a695a2e9322b243e184783361acba012db64da407da504863c1bf90f92c73S3Bucket4F63589D",
+            "trace": [
+              "new FileAssetParameters (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:11:36)",
+              "TestStack.addFileAsset (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/core/lib/stack.js:317:22)",
+              "new Asset (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:27:32)",
+              "AssetCode.bind (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new Function (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-lambda/lib/function.js:73:33)",
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:20:25)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/SamOptionsRepro/AssetParameters/040a695a2e9322b243e184783361acba012db64da407da504863c1bf90f92c73/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters040a695a2e9322b243e184783361acba012db64da407da504863c1bf90f92c73S3VersionKeyAA276266",
+            "trace": [
+              "new FileAssetParameters (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:15:35)",
+              "TestStack.addFileAsset (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/core/lib/stack.js:317:22)",
+              "new Asset (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:27:32)",
+              "AssetCode.bind (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new Function (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-lambda/lib/function.js:73:33)",
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:20:25)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/SamOptionsRepro/AssetParameters/040a695a2e9322b243e184783361acba012db64da407da504863c1bf90f92c73/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters040a695a2e9322b243e184783361acba012db64da407da504863c1bf90f92c73ArtifactHashC1A5CE00",
+            "trace": [
+              "new FileAssetParameters (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:19:38)",
+              "TestStack.addFileAsset (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/core/lib/stack.js:317:22)",
+              "new Asset (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:27:32)",
+              "AssetCode.bind (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new Function (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-lambda/lib/function.js:73:33)",
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:20:25)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/SamOptionsRepro/TestApi/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TestApi65B47ECD",
+            "trace": [
+              "new RestApi (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:28:26)",
+              "new LambdaRestApi (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:17:9)",
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:25:21)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/SamOptionsRepro/TestApi/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TestApiDeployment8541C0A0e7dc70505d8aa80b02179ed3b17af0e9",
+            "trace": [
+              "new Deployment (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/deployment.js:39:25)",
+              "LambdaRestApi.configureDeployment (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:164:38)",
+              "new RestApi (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:42:14)",
+              "new LambdaRestApi (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:17:9)",
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:25:21)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/SamOptionsRepro/TestApi/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TestApiDeploymentStageprod9E5CEC48",
+            "trace": [
+              "new Stage (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/stage.js:27:26)",
+              "LambdaRestApi.configureDeployment (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:172:36)",
+              "new RestApi (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:42:14)",
+              "new LambdaRestApi (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:17:9)",
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:25:21)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/SamOptionsRepro/TestApi/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TestApiEndpoint316CA9C6",
+            "trace": [
+              "LambdaRestApi.configureDeployment (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:173:13)",
+              "new RestApi (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:42:14)",
+              "new LambdaRestApi (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:17:9)",
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:25:21)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/SamOptionsRepro/TestApi/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TestApiCloudWatchRole3E85D09F",
+            "trace": [
+              "new Role (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-iam/lib/role.js:35:22)",
+              "LambdaRestApi.configureCloudWatchRole (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:182:22)",
+              "new RestApi (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:45:18)",
+              "new LambdaRestApi (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:17:9)",
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:25:21)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/SamOptionsRepro/TestApi/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TestApiAccountC79E0025",
+            "trace": [
+              "LambdaRestApi.configureCloudWatchRole (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:186:26)",
+              "new RestApi (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:45:18)",
+              "new LambdaRestApi (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:17:9)",
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:25:21)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/SamOptionsRepro/TestApi/Default/{proxy+}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TestApiproxy272A645C",
+            "trace": [
+              "new Resource (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:66:26)",
+              "new ProxyResource (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:93:9)",
+              "RootResource.addProxy (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:18:16)",
+              "new LambdaRestApi (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:19:23)",
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:25:21)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/SamOptionsRepro/TestApi/Default/{proxy+}/ANY/ApiPermission.SamOptionsReproTestApiC27A3212.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TestApiproxyANYApiPermissionSamOptionsReproTestApiC27A3212ANYproxyFB4E8ECF",
+            "trace": [
+              "Function.addPermission (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:21:9)",
+              "LambdaIntegration.bind (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:30:22)",
+              "Method.renderIntegration (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/method.js:75:21)",
+              "Method.renderIntegration (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/method.js:70:29)",
+              "new Method (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/method.js:27:31)",
+              "ProxyResource.addMethod (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "ProxyResource.addMethod (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:110:22)",
+              "new ProxyResource (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:101:35)",
+              "RootResource.addProxy (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:18:16)",
+              "new LambdaRestApi (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:19:23)",
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:25:21)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/SamOptionsRepro/TestApi/Default/{proxy+}/ANY/ApiPermission.Test.SamOptionsReproTestApiC27A3212.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TestApiproxyANYApiPermissionTestSamOptionsReproTestApiC27A3212ANYproxyCC000011",
+            "trace": [
+              "Function.addPermission (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:21:9)",
+              "LambdaIntegration.bind (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:37:26)",
+              "Method.renderIntegration (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/method.js:75:21)",
+              "Method.renderIntegration (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/method.js:70:29)",
+              "new Method (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/method.js:27:31)",
+              "ProxyResource.addMethod (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "ProxyResource.addMethod (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:110:22)",
+              "new ProxyResource (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:101:35)",
+              "RootResource.addProxy (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:18:16)",
+              "new LambdaRestApi (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:19:23)",
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:25:21)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/SamOptionsRepro/TestApi/Default/{proxy+}/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TestApiproxyANY735F7DD2",
+            "trace": [
+              "new Method (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/method.js:32:26)",
+              "ProxyResource.addMethod (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "ProxyResource.addMethod (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:110:22)",
+              "new ProxyResource (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:101:35)",
+              "RootResource.addProxy (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:18:16)",
+              "new LambdaRestApi (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:19:23)",
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:25:21)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/SamOptionsRepro/TestApi/Default/ANY/ApiPermission.SamOptionsReproTestApiC27A3212.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TestApiANYApiPermissionSamOptionsReproTestApiC27A3212ANY08AD985A",
+            "trace": [
+              "Function.addPermission (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:21:9)",
+              "LambdaIntegration.bind (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:30:22)",
+              "Method.renderIntegration (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/method.js:75:21)",
+              "Method.renderIntegration (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/method.js:70:29)",
+              "new Method (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/method.js:27:31)",
+              "RootResource.addMethod (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "ProxyResource.addMethod (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:108:33)",
+              "new ProxyResource (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:101:35)",
+              "RootResource.addProxy (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:18:16)",
+              "new LambdaRestApi (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:19:23)",
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:25:21)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/SamOptionsRepro/TestApi/Default/ANY/ApiPermission.Test.SamOptionsReproTestApiC27A3212.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TestApiANYApiPermissionTestSamOptionsReproTestApiC27A3212ANY220844E0",
+            "trace": [
+              "Function.addPermission (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:21:9)",
+              "LambdaIntegration.bind (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:37:26)",
+              "Method.renderIntegration (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/method.js:75:21)",
+              "Method.renderIntegration (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/method.js:70:29)",
+              "new Method (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/method.js:27:31)",
+              "RootResource.addMethod (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "ProxyResource.addMethod (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:108:33)",
+              "new ProxyResource (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:101:35)",
+              "RootResource.addProxy (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:18:16)",
+              "new LambdaRestApi (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:19:23)",
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:25:21)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/SamOptionsRepro/TestApi/Default/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TestApiANY5CA817A4",
+            "trace": [
+              "new Method (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/method.js:32:26)",
+              "RootResource.addMethod (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "ProxyResource.addMethod (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:108:33)",
+              "new ProxyResource (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:101:35)",
+              "RootResource.addProxy (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:18:16)",
+              "new LambdaRestApi (/Users/gordonmleigh/Projects/scratch/sam-options-repro/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:19:23)",
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:25:21)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/SamOptionsRepro/ApiUrl": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiUrl",
+            "trace": [
+              "new TestStack (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:29:9)",
+              "Object.<anonymous> (/Users/gordonmleigh/Projects/scratch/sam-options-repro/lib/index.js:35:1)",
+              "Module._compile (internal/modules/cjs/loader.js:945:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)",
+              "Module.load (internal/modules/cjs/loader.js:798:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1014:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "libraries": {
+      "@aws-cdk/aws-apigateway": "1.12.0",
+      "@aws-cdk/aws-iam": "1.12.0",
+      "@aws-cdk/core": "1.12.0",
+      "@aws-cdk/cx-api": "1.12.0",
+      "@aws-cdk/region-info": "1.12.0",
+      "@aws-cdk/aws-lambda": "1.12.0",
+      "@aws-cdk/aws-cloudwatch": "1.12.0",
+      "@aws-cdk/aws-ec2": "1.12.0",
+      "@aws-cdk/aws-ssm": "1.12.0",
+      "@aws-cdk/aws-sqs": "1.12.0",
+      "@aws-cdk/aws-kms": "1.12.0",
+      "@aws-cdk/aws-s3-assets": "1.12.0",
+      "@aws-cdk/assets": "1.12.0",
+      "@aws-cdk/aws-s3": "1.12.0",
+      "@aws-cdk/aws-events": "1.12.0",
+      "jsii-runtime": "node.js/v12.11.1"
+    }
+  }
+}
